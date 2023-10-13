@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery LIst</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>
+        I Love Food.
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h3>Refrigerator</h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h3>Drinks</h3>
+                    <li>Milk</li>
+                    <li>Joice</li>
+                    <li>Beer</li>
+                </td>
+                <td>
+                    <h3>Food</h3>
+                    <li>Cheese</li>
+                    <li>Yogurt</li>
+                    <li>Muscodines</li>
+                </td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th>
+                    <h3>Freezer</h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                <h3>Meat</h3>
+                <li>Steak</li>
+                <li>Ribs</li>
+                <li>Hamburger</li>
+            </td>
+            <td>
+                <h3>Smoothie Stuff</h3>
+                <li>Strawberries</li>
+                <li>Kiwi</li>
+                <li>Avacodo</li>          
+            </td>
+            </tr>
+        </tbody>
+        
+    </table>
     
 </body>
 </html>
