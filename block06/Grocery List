@@ -6,59 +6,110 @@
     <title>Grocery LIst</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>
-        I Love Food.
-    </h1>
-    <table>
-        <thead>
+    <div class="flexbox-container">
+        <div class="flexbox-item box-item">
+            <h4 style="font-size: 75px;">I Love Food</h4>
+        </div>
+    </div>
+
+    <div class="flexbox-container2">
+        <div class="flexbox-item2">
+            <h1>Pantry</h1>
+        </div>
+    </div>
+
+    <div class="flexbox-container3">
+        <div class="flexbox-item3 box-item-1">
+        <table>
             <tr>
                 <th>
-                    <h3>Refrigerator</h3>
+                    <td>
+                        <h3>Canned Goods</h3>
+                        <li>Tomatoes</li>
+                        <li>Green Beans</li>
+                        <li>Soup</li>
+                    </td>
                 </th>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <h3>Drinks</h3>
-                    <li>Milk</li>
-                    <li>Joice</li>
-                    <li>Beer</li>
-                </td>
-                <td>
-                    <h3>Food</h3>
-                    <li>Cheese</li>
-                    <li>Yogurt</li>
-                    <li>Muscodines</li>
-                </td>
-            </tr>
-        </tbody>
-        <thead>
+        </table>
+    </div>
+        <div class="flexbox-item3 box-item-2">
+            <table>
+                <tr>
+                    <th>
+                        <td>
+                            <h3>Boxed Goods</h3>
+                            <li>Cream of Wheat</li>
+                            <li>Instant Rice</li>
+                            <li>Oatmeal</li>
+                        </td>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmEJG6PN_DZx_99ObcICQbP3TyQ8OcpGBsg&usqp=CAU" alt=""></div>
+    </div>
+    
+    <div class="flexbox-container2">
+        <div class="flexbox-item2">
+            <h1>Fridge</h1>
+        </div>
+    </div>
+    <div class="flexbox-container4">
+        <div class="flexbox-item4 box-item-1">
+        <table>
             <tr>
                 <th>
-                    <h3>Freezer</h3>
+                    <td>
+                        <ol>
+                            <h3>Edible</h3>
+                        <li>Meat</li>
+                        <li>Cottage Cheese</li>
+                        <li>Tomatoes</li>
+                        </ol>
+                    </td>
                 </th>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                <h3>Meat</h3>
-                <li>Steak</li>
-                <li>Ribs</li>
-                <li>Hamburger</li>
-            </td>
-            <td>
-                <h3>Smoothie Stuff</h3>
-                <li>Strawberries</li>
-                <li>Kiwi</li>
-                <li>Avacodo</li>          
-            </td>
-            </tr>
-        </tbody>
-        
-    </table>
+        </table>
+    </div>
+        <div class="flexbox-item4 box-item-2">
+            <table>
+                <tr>
+                    <th>
+                        <td>
+                            <ol>
+                            <h3>Drinkable</h3>
+                            <li>Juice</li>
+                            <li>Milk</li>
+                            <li>Beer</li>
+                            </ol>
+                        </td>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9SsFC_zaIqw-96KbEeZQi9N62NO94Z7ydg&usqp=CAU" alt=""></div>
+    </div>
+
+    <div style="display: inline-block;
+                background-color: red;
+                border-color: bisque;
+                border: solid;
+                height: 300px;
+                width: 300px; 
+                position: relative;">
+               <div style="position: absolute;
+                text-align: center;
+                top: 25%;
+                left: 25%;">
+                <h3>Miscellaneous</h3>
+                <li>Toilet Paper</li>
+                <li>Toothpaste</li>
+                <li>Motivation</li>
+            </div> 
+            </div>
     
 </body>
 </html>
