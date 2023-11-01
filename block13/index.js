@@ -6,7 +6,12 @@
  * @returns {number} the number of degrees C
  */
 function convertToCelsius(fahren) {
-  return ((fahren- 32) * 5/9);
+  let celc = ((fahren- 32) * 5/9)
+  return celcius;
+}
+function convertToFahrenheit(celc) {
+  let fahren = (celc * 9/5) + 32
+  return fahrenheit;
 }
 
 /**
@@ -36,7 +41,9 @@ function createMessage(fahren, celc) {
  * @param {number} limit
  * @returns {number} a number between 0 and the int passed in
  */
-function rand(limit) {}
+function rand(limit) {
+  return Math.round(Math.random()*limit)
+}
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
 let fahren = prompt(
